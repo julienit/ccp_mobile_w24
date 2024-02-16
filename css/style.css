@@ -22,7 +22,7 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: rgb(75, 132, 211);
+   background-color: #2c559c;
    padding: 10px 50px;
 }
 
@@ -78,7 +78,7 @@ h1 {
 }
 h2 {
     text-align: center;
-    background-color: #3f6ab5;
+    background-color: #2c559c;
     color: #ffffff;
     width: 50%;
     margin-top: 20px;
@@ -87,7 +87,7 @@ h2 {
 
 .home-welcome h1{
     font-size: 40px;
-    color: #3f6ab5;
+    color: #2c559c;
     font-weight: 600;
     margin-top: 100px;
     text-align: center;
@@ -258,7 +258,7 @@ h2 {
 }
 
 .travel-container h2 {
-    background-color: #3f6ab5;
+    background-color: #2c559c;
     color: #ffffff;
     width: auto;
     margin-top: 20px;
