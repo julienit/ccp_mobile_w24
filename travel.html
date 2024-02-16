@@ -3,23 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Meet our Furry Pals</title>
 </head>
+
 <body>
-    <a href="#content" class="skip" >Skip to content</a>
-    <header>
-         <nav>
-                <ul>
-                    <li><a href = "index.html">Home</a></li>
-                    <li><a href = "pets.html">Pets</a></li>
-                    <li><a href = "recipes.html">Recipes</a></li>
-                    <li class="active"><a href ="travel.html">Travel</a></li>
-                </ul>
-            </nav>
-            <h1>Travel</h1>
+    <a href="#main" class="skip">Skip to main content</a>
+    <header class="header">
+        <a href="#" class="logo"> Pet Pantry </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <a href="#main" class="skip">Skip to main content</a>
+        <nav>
+        <ul class="navbar">
+            <li><a href="index.html" > Home </a></li>
+            <li><a href="pets.html"> Pets </a></li>
+            <li><a href="recipes.html"> Recipes </a></li>
+            <li><a href="travel.html" class="active" >Travel </a></li>
+        </ul>
+        </nav>
     </header>
-    <main id="content">
-        <div>
+    
+    <main>
+        <section class="travel-page" id="ttravel-page">   
+            <div class="travel-title"> 
+                    <h1>Travel With Us</h1>
+                    <p>Here are some of our favorite travel destinations!</p>
+            </div>
+            <div class = "travel-container">
             <h2>Welcome to New York City</h2>
             <img src="images/istockphoto-615398376-170667a.webp" width = "400" alt="Image of New York City landscape">
             <p>New York City is the most populous city in the United States. With an estimated 2019 population of 8,336,817 distributed over about 302.6 square miles, New York City is also the most densely populated major city in the United States. Located at the southern tip of the U.S. state of New York, the city is the center of the New York metropolitan area, the largest metropolitan area in the world by urban landmass. With almost 20 million people in its metropolitan statistical area and approximately 23 million in its combined statistical area, it is one of the world's most populous megacities. New York City has been described as the cultural, financial, and media capital of the world, significantly influencing commerce, entertainment, research, technology, education, politics, tourism, art, fashion, and sports. Home to the headquarters of the United Nations, New York is an important center for international diplomacy.</p>
@@ -46,9 +63,9 @@
                 <li>There are more than 20,000 restaurants in New York City.</li>
                 <li>There are 1,700 parks in New York City.</li>
             </ul>
-        </div>
+        
 
-        <div>
+        
             <h2>Welcome to Chicago</h2>
             <img src="images/WhatNOTtodoinChicago__HERO_iStock-996188444.jpg" width = "400" alt="Image of Chicago landscape">
             <p>Chicago, officially the City of Chicago, is the most populous city in the U.S. state of Illinois, and the third-most-populous city in the United States. With an estimated population of 2,693,976 in 2019, it is also the most populous city in the Midwestern United States. Chicago is the county seat of Cook County, the second-most-populous county in the US, with a small portion of the northwest side of the city extending into DuPage County near O'Hare Airport. Chicago is the principal city of the Chicago metropolitan area, often referred to as Chicagoland. At nearly 10 million people, the metropolitan area is the third most populous in the United States.</p>
@@ -67,9 +84,7 @@
                 <h4>Visit the Art Institute of Chicago</h4>
                 <img src="images/chicagoartinstitute.webp" height= "400" width = "400" alt="Image of Art Institute of Chicago">
                 <p>The Art Institute of Chicago, founded in 1879 and located in Chicago's Grant Park, is one of the oldest and largest art museums in the United States. Recognized for its curatorial efforts and popularity among visitors, the museum hosts approximately 1.5 million guests annually. Its collection, stewarded by 11 curatorial departments, is encyclopedic, and includes iconic works such as Georges Seurat's A Sunday on La Grande Jatte, Pablo Picasso's The Old Guitarist, Edward Hopper's Nighthawks, and Grant Wood's American Gothic. Its permanent collection of nearly 300,000 works of art is augmented by more than 30 special exhibitions mounted yearly that illuminate aspects of the collection and present cutting-edge curatorial and scientific research.</p>
-            </div>
 
-            <div>
                 <h2>Welcome to London</h2>
                 <img src="images/topic-london-gettyimages-760251843-feature.webp" width = "400" alt="Image of London landscape">
                 <p>London is the capital and largest city of England and the United Kingdom. The city stands on the River Thames in the south-east of England, at the head of its 50-mile (80 km) estuary leading to the North Sea. London has been a major settlement for two millennia. Londinium was founded by the Romans. The City of London, London's ancient core − an area of just 1.12 square miles (2.9 km2) and colloquially known as the Square Mile − retains boundaries that closely follow its medieval limits. The City of Westminster is also an Inner London borough holding city status. London is governed by the mayor of London and the London Assembly.</p>
@@ -95,3 +110,4 @@
         </main>
 </body>
 </html>
+
