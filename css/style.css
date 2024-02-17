@@ -19,7 +19,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: #3468b4;
     color: black;
 }
 
@@ -31,7 +31,7 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: rgb(58, 97, 151);
+   background-color: #3468b4;
    padding: 10px 50px;
 }
 
@@ -78,7 +78,7 @@ body {
 
 h1 {
     font-size: 40px;
-    color: rgb(58, 97, 151);
+    color: #3468b4;
     font-weight: 600;
     margin-top: 100px;
     text-align: center;
@@ -86,7 +86,7 @@ h1 {
 
 }
 h2 {
-    background-color: rgb(58, 97, 151);
+    background-color: #3468b4;
     color: #ffffff;
     width: auto;
     margin-top: 20px;
@@ -95,7 +95,7 @@ h2 {
 
 .home-welcome h1{
     font-size: 40px;
-    color: rgb(58, 97, 151);
+    color: #3468b4;
     font-weight: 600;
     margin-top: 100px;
     text-align: center;
@@ -197,7 +197,7 @@ h2 {
 }
 
 .pets-container h2 {
-    background-color: #0d1b69;
+    background-color: #3468b4;
     color: #ffffff;
     width: auto;
     margin-top: 20px;
@@ -214,7 +214,7 @@ h2 {
 }
 
 .recipe-container h2 {
-    background-color: rgb(58, 97, 151);
+    background-color: #3468b4;
     color: #ffffff;
     width: auto;
     margin-top: 20px;
@@ -315,7 +315,7 @@ h2 {
 }
 
 footer {
-    background: rgb(58, 97, 151);
+    background: #3468b4;
     border: 5px solid #ffffff;
     position:absolute;
     width: 100%;
