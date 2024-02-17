@@ -116,9 +116,14 @@ h2 {
     text-align: center;
 }
 .services-container{
+    height: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
     margin: 0 auto;
 }
  .contact-text {
@@ -155,7 +160,6 @@ h2 {
     top: auto;
     width: 1px;
     height: 1px;
-    overflow: hidden;
   }
 
 .skip:focus {
