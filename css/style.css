@@ -158,12 +158,7 @@ h2 {
     top: auto;
     width: 1px;
     height: 1px;
-  }
-
-.skip:focus {
-    position: static;
-    width: auto;
-    height: auto;
+    overflow: hidden;
   }
 
   /* pet page styling */
