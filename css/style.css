@@ -6,6 +6,15 @@
     text-decoration: none;
 }
 
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
 /* home page styling */
 
 body {
@@ -22,7 +31,7 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: rgb(75, 132, 211);
+   background-color: #355ca0;
    padding: 10px 50px;
 }
 
@@ -46,7 +55,7 @@ body {
 
 .navbar a:hover {
     text-decoration: underline;
-    color: #2555a7;
+    color: #0d1b69;
 }
 
 .navbar a.active {
@@ -69,7 +78,7 @@ body {
 
 h1 {
     font-size: 40px;
-    color: #3f6ab5;
+    color: #0d1b69;
     font-weight: 600;
     margin-top: 100px;
     text-align: center;
@@ -77,7 +86,7 @@ h1 {
 
 }
 h2 {
-    background-color: #2555a7;
+    background-color: #0d1b69;
     color: #ffffff;
     width: auto;
     margin-top: 20px;
@@ -86,7 +95,7 @@ h2 {
 
 .home-welcome h1{
     font-size: 40px;
-    color: #3f6ab5;
+    color: #0d1b69;
     font-weight: 600;
     margin-top: 100px;
     text-align: center;
@@ -152,15 +161,6 @@ h2 {
     margin: 0 auto;
 }
 
-.skip {
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-  }
-
   /* pet page styling */
 .pets-title h1{
     margin-top: 200px;
@@ -197,7 +197,7 @@ h2 {
 }
 
 .pets-container h2 {
-    background-color: #2555a7;
+    background-color: #0d1b69;
     color: #ffffff;
     width: auto;
     margin-top: 20px;
@@ -214,7 +214,7 @@ h2 {
 }
 
 .recipe-container h2 {
-    background-color: #3f6ab5;
+    background-color: #0d1b69;
     color: #ffffff;
     width: auto;
     margin-top: 20px;
@@ -254,7 +254,7 @@ h2 {
 }
 
 .travel-container h2 {
-    background-color: #3f6ab5;
+    background-color: #0d1b69;
     color: #ffffff;
     width: auto;
     margin-top: 20px;
@@ -315,7 +315,7 @@ h2 {
 }
 
 footer {
-    background: #2555a7;
+    background: #0d1b69;
     border: 5px solid #ffffff;
     position:absolute;
     width: 100%;
