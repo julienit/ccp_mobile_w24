@@ -15,6 +15,12 @@
     overflow: hidden;
   }
 
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+
 /* home page styling */
 
 body {
