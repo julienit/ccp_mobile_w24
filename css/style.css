@@ -115,12 +115,6 @@ h2 {
 .about-community {
     text-align: center;
 }
-.services-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-    margin: 0 auto;
-}
  .contact-text {
     text-align: center;
     margin-top: 20px;
@@ -140,7 +134,7 @@ h2 {
 .service-box {
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     padding: 20px;
