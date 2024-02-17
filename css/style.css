@@ -22,7 +22,7 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: #2c559c;
+   background-color: rgb(75, 132, 211);
    padding: 10px 50px;
 }
 
@@ -77,16 +77,16 @@ h1 {
 
 }
 h2 {
-    text-align: center;
-    background-color: #2c559c;
+    background-color: #3f6ab5;
     color: #ffffff;
+    width: auto;
     margin-top: 20px;
     margin-left: 0%;
 }
 
 .home-welcome h1{
     font-size: 40px;
-    color: #2c559c;
+    color: #3f6ab5;
     font-weight: 600;
     margin-top: 100px;
     text-align: center;
@@ -115,6 +115,12 @@ h2 {
 .about-community {
     text-align: center;
 }
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+}
  .contact-text {
     text-align: center;
     margin-top: 20px;
@@ -122,24 +128,24 @@ h2 {
     margin: 0 auto;
 }
 
-.services-container{ {
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background: #ffffff;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    padding: 20px;
-    gap: 20px;
-    border-radius: 10px;
-    margin: 0 auto;
-    text-align: center;
-}
 
 .service-img img{
     display: block;
     width: 350px;
     height: 350px;
     margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.service-box {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
     margin: 0 auto;
 }
 
@@ -194,7 +200,7 @@ h2 {
 }
 
 .pets-container h2 {
-    background-color: #3f6ab5;
+    background-color: #2c559c;
     color: #ffffff;
     width: auto;
     margin-top: 20px;
@@ -312,7 +318,7 @@ h2 {
 }
 
 footer {
-    background: #3f6ab5;
+    background: rgb(75, 132, 211);
     border: 5px solid #ffffff;
     position:absolute;
     width: 100%;
